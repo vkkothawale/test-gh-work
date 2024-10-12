@@ -3,7 +3,7 @@ name: CI pipeline for react demo
 on: push
 
 jobs:
-  test:
+  CI-workflow:
     runs-on: ubuntu-latest
     steps:
       - name: checkout code

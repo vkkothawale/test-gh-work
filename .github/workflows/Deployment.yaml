@@ -16,6 +16,7 @@ jobs:
       - name: Run test cases
         run: npm test
   Deploy:
+    needs: CI
     runs-on: ubuntu-latest
     steps:
       - name: checkout code

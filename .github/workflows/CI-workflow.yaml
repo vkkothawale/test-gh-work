@@ -1,6 +1,7 @@
 name: CI pipeline for react demo
 
-on: push
+on:
+  workflow_dispatch
 
 jobs:
   CI-workflow:
